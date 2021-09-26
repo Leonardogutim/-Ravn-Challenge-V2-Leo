@@ -1,0 +1,102 @@
+.container-fluid {
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 52px;
+  background-color: black;
+}
+.header h4 {
+  font-size: 17px;
+  color: aliceblue;
+  text-align: left;
+  padding: 16px 0 16px 33px;
+}
+.row {
+  width: 100%;
+  height: 100;
+}
+.people-list {
+  border-right: 1px solid rgb(135, 148, 165);
+  height: calc(100vh - 52px);
+  overflow-y: auto;
+  padding: 0;
+  margin-left: 15px;
+  min-width: 300px;
+}
+.people-list p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 70px;
+  border-bottom: 1px solid rgb(142, 153, 165);
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-weight: 900;
+}
+.people-list p i {
+  padding-top: 5px;
+  font-weight: 900;
+  float: right;
+}
+.icon-refresh {
+  font-size: 30px;
+}
+.people-list p:hover {
+  color: rgb(0, 162, 255);
+  border-bottom: 2px dashed rgb(0, 162, 255);
+}
+.people-info {
+  margin-left: 7.5%;
+  max-width: 60%!important;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .people-info {
+    margin-left: 5%;
+    max-width: 50%!important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .people-info {
+    margin-left: 5%;
+    max-width: 40%!important;
+  }
+}
+
+.people-info .container{
+  padding-top: 50px!important;
+  padding: 0;
+}
+.people-info .container h3 {
+  text-align: left;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.people-info .people-info-field {
+  color: rgb(105, 117, 128);
+  font-size: 20px;
+  padding: 15px 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(105, 117, 128);
+  padding-right: 20px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.people-info .people-info-field .field-info {
+  float: right;
+}
+
+.not-found {
+  color: red;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.people-info .vehicles {
+  margin-top: 30px;
+}
