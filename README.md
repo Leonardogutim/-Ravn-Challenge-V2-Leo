@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/44820296/134824751-ea9ca6c9-2709-4220-ab89-b36230dcb08d.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+First, if you presents any problems you can to [npm install], and after [npm start]
 
 ### `yarn start`
 
